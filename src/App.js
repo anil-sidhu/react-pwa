@@ -1,17 +1,10 @@
-import React, { Component } from 'react';
-
+import React, { Component } from "react";
 class App extends Component {
-  componentDidMount()
-  {
-    setTimeout(()=>{
-      this.setState({})
-    },500)
-  } 
   render() {
-    console.warn("red")
+    
     return (
-      <div>
-        some data
+      <div className="container">
+        <h1 className="title">Hello World!</h1>
       </div>
     );
   }
